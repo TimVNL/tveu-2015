@@ -1,18 +1,17 @@
 @import "compass";
 
-// import base 
+// import base
 @import "base/typography";
 
 // import components
 
 // Import layout
+//@import "layout/navigation";
 @import "layout/header";
-@import "layout/footer";
+//@import "layout/footer";
 
-// import pages
+// import sections (pages)
 
 // import vendors
 @import "vendors/bootstrap";
 @import "vendors/font-awesome";
-
-

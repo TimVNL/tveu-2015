@@ -3,7 +3,7 @@
 @import url('http://fonts.googleapis.com/css?family=PT+Serif:400,700');
 
 // Font Stacks
-$font-lato     : "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-lato    : "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 $font-ptserif : 'PT Serif', serif;
 
 //Font weights
@@ -20,4 +20,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-lato;
     font-weight: $font-bold;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: $font-normal;
 }
