@@ -1,3 +1,18 @@
-// import SASS variables
-@import "variables/base";
-@import "variables/fonts";
+@import "compass";
+
+// import base 
+@import "base/typography";
+
+// import components
+
+// Import layout
+@import "layout/header";
+@import "layout/footer";
+
+// import pages
+
+// import vendors
+@import "vendors/bootstrap";
+@import "vendors/font-awesome";
+
+

@@ -1,0 +1,23 @@
+// Import Google Fonts
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400');
+@import url('http://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+// Font Stacks
+$font-lato     : "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-ptserif : 'PT Serif', serif;
+
+//Font weights
+$font-thin    : 100;
+$font-light   : 300;
+$font-normal  : 400;
+$font-bold    : 700;
+
+body {
+  font-family: $font-ptserif;
+  font-weight: $font-normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-lato;
+    font-weight: $font-bold;
+}
