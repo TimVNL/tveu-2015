@@ -1,0 +1,8 @@
+.navbar {
+ border-radius: 0px;
+ margin-bottom:0;
+}
+@media (min-width: 768px) {
+	#navbar-collapse {float: right!important;}
+	.navbar-nav > li {float: left; display: inline;}
+}

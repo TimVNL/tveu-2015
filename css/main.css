@@ -1,125 +1,7 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
-@import url("http://fonts.googleapis.com/css?family=PT+Serif:400,700");
-body {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
-
-.topnav {
-  font-size: 14px;
-}
-
-.lead {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.banner {
-  padding: 100px 0;
-  color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
-}
-
-.banner ul {
-  margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  float: right;
-  margin-top: 0;
-}
-
-@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    float: left;
-    margin-top: 15px;
-  }
-}
-@media (max-width: 767px) {
-  .banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
-  }
-
-  ul.banner-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0;
-  }
-}
-.content-section {
-  padding: 50px 0;
-  background-color: #f8f8f8;
-}
-
-.content-section:nth-child(odd) {
-  padding: 50px 0;
-  background-color: #fff;
-  border-top: 1px solid #e7e7e7;
-  border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-  margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-  float: left;
-  width: 200px;
-  border-top: 3px solid #e7e7e7;
-}
-
-.intro-header {
-  padding-top: 50px;
-  /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
-  text-align: center;
-  color: #f8f8f8;
-  background: url("../img/intro-bg.jpg") no-repeat center center;
-  background-size: cover;
-}
-
-.intro-message {
-  position: relative;
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-
-.intro-message > h1 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 5em;
-}
-
-.intro-divider {
-  width: 400px;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.intro-message > h3 {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("http://fonts.googleapis.com/css?family=Pacifico");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5645,7 +5527,7 @@ a.thumbnail.active {
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px;
 }
 
@@ -5662,7 +5544,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-bar-info {
@@ -5671,7 +5553,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-bar-warning {
@@ -5680,7 +5562,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .progress-bar-danger {
@@ -5689,7 +5571,7 @@ a.thumbnail.active {
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
 .media {
@@ -9601,4 +9483,234 @@ button.close {
 
 .fa-medium:before {
   content: "";
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.page-header {
+  padding-bottom: 0;
+  margin: 0px 0 15px;
+  border-bottom: 1px solid #EEE;
+}
+
+/* Header */
+#banner {
+  background: #222;
+  overflow: hidden;
+}
+
+#banner .backgrounds {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+#banner .backgrounds li {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  overflow: hidden;
+}
+
+#banner .backgrounds li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 1;
+  z-index: 0;
+  animation: imageAnimation 36s linear infinite 0s;
+}
+
+#banner .backgrounds li:nth-child(1) span {
+  background-image: url("../img/intro-bg.jpg");
+}
+
+/* Header - Jumbotron */
+#start .jumbotron {
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 25%;
+  margin-bottom: 0;
+}
+
+#start .row {
+  margin: 0;
+}
+
+#start .jumbotron .container {
+  color: #FFF;
+  text-align: center;
+  max-width: 960px;
+}
+
+#start .jumbotron .container h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  color: #FFF;
+}
+
+#start .jumbotron .container h3 {
+  color: #FFF;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  #navbar-collapse {
+    float: right !important;
+  }
+
+  .navbar-nav > li {
+    float: left;
+    display: inline;
+  }
+}
+#about {
+  background: #eee;
+  position: relative;
+}
+
+#about .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#contact {
+  position: relative;
+}
+
+#contact .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#experience {
+  background: #eee;
+  position: relative;
+}
+
+#education {
+  background: #fff;
+  position: relative;
+}
+
+#experience .container, #education .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#experience .row, #education .row {
+  margin: 0;
+}
+
+#experience .years, #education .years {
+  border-radius: 50%;
+  color: #FFF;
+  background: #357ebd;
+  display: inline-block;
+  font-size: 17px;
+  width: 140px;
+  height: 140px;
+  padding: 47px 0;
+  text-align: center;
+}
+
+#experience .details, #education .details {
+  height: 195px;
+  padding: 20px 0px;
+}
+
+#experience .details a, #education .details a {
+  color: #999;
+  text-decoration: none;
+}
+
+#experience .details a:hover, #education .details a:hover {
+  color: #333;
+}
+
+#portfolio {
+  background: #eee;
+  position: relative;
+}
+
+#portfolio .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#portfolio .thumbnail {
+  border: none;
+  background-color: transparent;
+}
+
+#portfolio .tab-content {
+  margin-top: 20px;
+}
+
+#skills .container {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+#skills .skill {
+  text-align: center;
+  margin-bottom: 25px;
+  height: 210px;
+}
+
+#skills .skill h4 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#skills .chart {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#skills .chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#skills .percent {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 150px;
+  z-index: 2;
+}
+
+#skills .percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
 }
