@@ -17,6 +17,12 @@
 </div><!--.col-->
 
 <div class="col-xs-6 col-md-3">
+  <a href="#" class="thumbnail">
+    <img src="img/portfolio/priv-cnl2015.png" alt="">
+  </a>
+</div><!--.col-->
+
+<div class="col-xs-6 col-md-3">
   <a href="http://noxqs.nl" class="thumbnail">
     <img src="img/portfolio/noxqs-noxqs2014.png" alt="">
   </a>
