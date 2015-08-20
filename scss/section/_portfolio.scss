@@ -1,0 +1,19 @@
+#portfolio {
+	background:#eee;
+	position:relative;
+}
+
+#portfolio .container{
+	@include section-padding;
+}
+
+#portfolio .isotope-item {
+	float: none;
+	margin: 15px 0;
+}
+
+#portfolio .thumbnail {
+	border: none;
+	background-color: transparent;
+	margin-bottom: 0;
+}

@@ -1,0 +1,7 @@
+#about{
+	background:#eee;
+}
+
+#about .container{
+	@include section-padding;
+}

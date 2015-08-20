@@ -1,0 +1,44 @@
+#experience {
+	background:#eee;
+	position:relative;
+}
+
+#education {
+	background:#fff;
+	position:relative;
+}
+
+#experience .container, #education .container{
+	padding-top:40px ;
+	padding-bottom:40px ;
+}
+
+#experience .row, #education .row {
+	margin: 0;
+}
+
+#experience .years, #education .years {
+	border-radius: 50%;
+	color: #FFF;
+	background: #357ebd;
+	display: inline-block;
+	font-size: 17px;
+	width: 140px;
+	height: 140px;
+	padding: 47px 0;
+	text-align: center;
+}
+
+#experience .details, #education .details {
+	height: 195px;
+	padding: 20px 0px;
+}
+
+#experience .details a, #education .details a {
+	color: #999;
+	text-decoration:none;
+}
+
+#experience .details a:hover, #education .details a:hover{
+	color: #333;
+}
