@@ -1,19 +1,9 @@
 $(function() {
-	// Set Jumbotron to window height
-	var windowWidth = $(window).width();
-	var windowHeight = $(window).height();
-	$('#banner').css({
-		'height' : windowHeight - "52",
-		'width' : windowWidth - "0"
-	});
-	// stick navbar to top when past jumbotron
-	$(window).scroll(function() {
-		if ($(window).scrollTop() > $('#banner').outerHeight()) {
-			$('.navbar').addClass("navbar-fixed-top");
-		} else {
-			$('.navbar').removeClass("navbar-fixed-top");
-		}
-	});
+	// Set Start background images
+	$(".banner-image").backstretch([
+      "https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675"
+    , "img/banner-bg-2.jpg"
+  ], {duration: 4000, fade: 850});
 	 // Skill Charts
 	$('#skills .chart').easyPieChart({
 		trackColor: '#eee',
@@ -25,8 +15,24 @@ $(function() {
   	$(this.el).find('.percent').text(Math.round(percent));
   	}
   })
-  	$('#portfolio .nav-tabs a').click(function(e) {
-  		e.preventDefault();
-  		$(this).tab('show');
-  	});
+	// portfolio filter
+	if ($('.isotope-container').length>0) {
+				$(window).load(function() {
+					$('.isotope-container').fadeIn();
+					var $container = $('.isotope-container').isotope({
+						itemSelector: '.isotope-item',
+						layoutMode: 'fitRows',
+						transitionDuration: '0',
+						filter: "*"
+					});
+					// filter items on button click
+					$('.portfolio-filter').on( 'click', 'ul.nav li a', function() {
+						var filterValue = $(this).attr('data-filter');
+						$(".portfolio-filter").find("li.active").removeClass("active");
+						$(this).parent().addClass("active");
+						$container.isotope({filter: filterValue,});
+						return false;
+					});
+				});
+			};
   });

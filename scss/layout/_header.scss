@@ -1,74 +1,62 @@
 // Variables
-$intro-bg1-loc: '../img/intro-bg.jpg';
 
 // CSS
 
-/* Header */
-#banner {
-	background: #222;
-	overflow: hidden
- }
-
-#banner .backgrounds {
- 	width: 100%;
-	height: 100%;
-	top: 0px;
-	left: 0px;
-	z-index: 0;
-	margin:0 !important;
-	overflow:hidden;
+.navbar {
+ border-radius: 0px;
+ margin-bottom:0;
+ z-index:999;
 }
 
-#banner .backgrounds li {
-	opacity: 0.6;
-	filter: alpha(opacity=60);
-	overflow:hidden;
-
+.navbar-toggle > .fa-bars {
+ color: #FFF;
 }
 
-#banner .backgrounds li span {
+@media (min-width: 768px) {
+	#navbar-collapse {float: right!important;}
+	.navbar-nav > li {float: left; display: inline;}
+}
+
+.banner {
 	width: 100%;
 	height: 100%;
+	min-height: 100%;
+	color: #fff;
+	@media (max-width: 768px) {
+    display: none
+	}
+}
+.banner-image {
+	vertical-align: middle;
+	min-height: 100%;
+	width: 100%;
+}
+.banner:after {
 	position: absolute;
-	top: 0px;
-	left: 0px;
-	color: transparent;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: none;
-	opacity: 1;
-	z-index: 0;
-	animation: imageAnimation 36s linear infinite 0s;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.55);
+	content: "";
+}
+.banner-caption {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	z-index: 2;
 }
 
-#banner .backgrounds li:nth-child(1) span {
-	background-image: url($intro-bg1-loc);
-}
-
-/* Header - Jumbotron */
-#start .jumbotron {
-	background:transparent;
-	position:absolute;
-	padding:0;
-	left:0;
-	right:0;
-	top:25%;
-	margin-bottom: 0;
-}
-#start .row { margin: 0;}
-
-#start .jumbotron .container {
-	color:#FFF;
-	text-align: center;
-	max-width: 960px;
-}
-
-#start .jumbotron .container h1 {
+.banner-caption h1,
+.banner-caption h2,
+.banner-caption h3,
+.banner-caption h4,
+.banner-caption h5,
+.banner-caption h6 {
 	font-family: $font-pacifico;
 	font-weight: $font-normal;
 	color: #FFF;
 }
-
-#start .jumbotron .container h3 {
-	color: #FFF;
+.banner-caption h1{
+	font-size: 63px;
 }
