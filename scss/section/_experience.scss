@@ -9,19 +9,23 @@
 }
 
 #experience .container, #education .container{
-	padding-top:40px ;
-	padding-bottom:40px ;
+	@include section-padding;
 }
 
 #experience .row, #education .row {
 	margin: 0;
 }
 
+#experience .worktime, #education .worktime {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #experience .years, #education .years {
 	border-radius: 50%;
 	color: #FFF;
 	background: #357ebd;
-	display: inline-block;
 	font-size: 17px;
 	width: 140px;
 	height: 140px;
@@ -30,7 +34,6 @@
 }
 
 #experience .details, #education .details {
-	height: 195px;
 	padding: 20px 0px;
 }
 

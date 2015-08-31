@@ -7,6 +7,10 @@
 	@include section-padding;
 }
 
+#portfolio .isotope-container {
+	display: none;
+}
+
 #portfolio .isotope-item {
 	float: none;
 	margin: 15px 0;
