@@ -1,0 +1,7 @@
+.DS_Store
+.git
+.sass-cache
+config.rb
+scss
+scss/*
+README.md
