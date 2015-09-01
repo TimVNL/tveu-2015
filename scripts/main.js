@@ -1,4 +1,4 @@
-// Fallback JS config and init file 
+// Fallback JS config and init file
 fallback.config({
   "base": "scripts/",
   "libs": {
@@ -60,7 +60,7 @@ fallback.require(function(bootstrap, matchHeight) {
 // backstretch
 fallback.require(function(backstretch) {
   $(".banner-image").backstretch([
-    "https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675", "img/banner-bg-2.jpg"
+    "img/banner-bg-1.jpg", "img/banner-bg-2.jpg"
   ], {
     duration: 4000,
     fade: 850

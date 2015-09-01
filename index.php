@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="The Personal Website and Portfolio of Tim Veluwenkamp">
+  <meta name="author" content="Tim Veluwenkamp">
   <title>Tim Veluwenkamp</title>
   <link href="style.css" rel="stylesheet">
 </head>
@@ -32,12 +32,11 @@
           <li><a href="#education">Education</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!--/.container -->
+      </div><!-- /.navbar-collapse -->
+    </div><!--/.container -->
   </nav>
   <div id="banner" class="banner">
+    <div class="image-copyright">images by <a href="https://unsplash.com/">unsplash</a></div>
     <div class="banner-image"></div>
     <div class="banner-caption">
       <div class="container">
@@ -45,16 +44,11 @@
           <div class="col-md-8 col-md-offset-2">
             <h1 class="text-center">I'm Tim Veluwenkamp</h1>
             <p class="lead text-center">I Design &amp; Build Beautiful Crafted Web Experiences</p>
-          </div>
-          <!--/.col-md-8 col-md-offset-2 -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!--/.container -->
-    </div>
-    <!--/.banner-caption -->
-  </div>
-  <!--/#banner -->
+          </div><!--/.col-md-8 col-md-offset-2 -->
+        </div><!--/.row -->
+      </div><!--/.container -->
+    </div><!--/.banner-caption -->
+  </div><!--/#banner -->
   <!--[if lt IE 8]>
  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
  <![endif]-->
@@ -197,7 +191,7 @@
             <br/>Sept, 2010
           </div>
         </div>
-        <div class="col-xs-8 col-md-10 details">
+        <div class="col-xs-8 col-md-10 details mh">
           <h4>Employee Computer Advies Team<br/>
             <small><i class="fa fa-map-marker"> </i><a href="http://www.deonderwijsspecialisten.nl"> De Onderwijsspecialisten, Arnhem </a></small>
           </h4>
