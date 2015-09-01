@@ -7,7 +7,8 @@
   <meta name="description" content="The Personal Website and Portfolio of Tim Veluwenkamp">
   <meta name="author" content="Tim Veluwenkamp">
   <title>Tim Veluwenkamp</title>
-  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <script data-main="scripts/main" src="scripts/fallback.min.js" charset="UTF-8"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="45">
@@ -312,7 +313,6 @@
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-  <script async data-main="scripts/main" src="scripts/fallback.min.js" charset="UTF-8"></script>
 </body>
 
 </html>

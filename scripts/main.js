@@ -1,6 +1,8 @@
 // Fallback JS config and init file
 fallback.config({
-  "base": "scripts/",
+  "base": {
+    "js": "scripts/"
+    },
   "libs": {
     "jquery": {
       "alias": "$",
@@ -44,7 +46,7 @@ fallback.config({
 });
 
 // Load Twitter Bootstrap!
-fallback.require(function(bootstrap, matchHeight) {
+fallback.require(function(css$main, bootstrap, matchHeight) {
   // matchHeight off all divs with class mh
   $('.mh').matchHeight();
 });
