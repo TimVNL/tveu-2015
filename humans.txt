@@ -1,0 +1,15 @@
+/* TEAM */
+
+Name: Tim Veluwenkamp
+E-Mail: contact<at>timveluwenkamp.eu
+Twitter: TimV_
+Location: Arnhem, The Netherlands
+
+/* THANKS */
+
+/* SITE */
+
+Last update: 2015/09/02
+Standards: HTML5, CSS3, SCSS
+Components: Modernizr, jQuery, Bootstrap.
+Software: Atom, Compass, MAMP

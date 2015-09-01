@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The Personal Website and Portfolio of Tim Veluwenkamp">
-  <meta name="author" content="Tim Veluwenkamp">
+  <link rel="author" href="humans.txt" />
   <title>Tim Veluwenkamp</title>
   <link rel="stylesheet" href="css/main.css">
   <script data-main="scripts/main" src="scripts/fallback.min.js" charset="UTF-8"></script>

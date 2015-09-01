@@ -1,6 +1,7 @@
 .DS_Store
 .git
 .sass-cache
+.editorconfig
 config.rb
 scss
 scss/*
