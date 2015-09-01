@@ -254,7 +254,7 @@
   <section id="contact">
     <div class="container">
       <div class="page-header">
-        <h2>Contact<small>Connect with me!</small></h2>
+        <h2>Contact <small>Connect with me!</small></h2>
       </div><!--/.page-header -->
       <div class="row">
         <div class="col-xs-12 col-md-8">

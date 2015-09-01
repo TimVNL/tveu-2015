@@ -46,7 +46,7 @@ fallback.config({
 });
 
 // Load Twitter Bootstrap!
-fallback.require(function(css$main, bootstrap, matchHeight) {
+fallback.require(function(bootstrap, matchHeight) {
   // matchHeight off all divs with class mh
   $('.mh').matchHeight();
 });

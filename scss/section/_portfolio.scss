@@ -1,23 +1,50 @@
 #portfolio {
-	background:#eee;
-	position:relative;
+  background: #eee;
+  position: relative;
+}
+#portfolio .container {
+  @include section-padding;
 }
 
-#portfolio .container{
-	@include section-padding;
+#portfolio .nav-tabs>li {
+	margin: 0 3px;
+	&:first-child {
+		margin: 0;
+	}
+}
+
+#portfolio .nav-tabs>li>a {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+	&:hover {
+		color: #fff;
+	  background-color: #286090;
+	  border-color: #204d74;
+	}
+}
+
+#portfolio .nav-tabs>li>a:hover {
+	color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+#portfolio .nav-tabs>li.active>a {
+	color: #fff;
+	background-color: #286090;
+	border-color: #204d74;
 }
 
 #portfolio .isotope-container {
-	display: none;
+  display: none;
 }
-
 #portfolio .isotope-item {
-	float: none;
-	margin: 15px 0;
+  float: none;
+  margin: 15px 0;
 }
-
 #portfolio .thumbnail {
-	border: none;
-	background-color: transparent;
-	margin-bottom: 0;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 0;
 }
