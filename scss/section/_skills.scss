@@ -1,44 +1,26 @@
-#skills{
-}
+#skills {
 
+}
 #skills .container {
-	@include section-padding;
+  @include section-padding;
 }
-
 #skills .row {
-}
 
-#skills .skill {
-	text-align:center;
-	margin-bottom: 25px;
-	height:210px;
 }
-
-#skills .skill h4 {
-	margin:0;
-	text-transform: uppercase;
-}
-#skills .chart {
+.progress {
   position: relative;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 15px;
-  text-align: center;
+  height: 25px;
 }
-#skills .chart canvas {
+.progress > .progress-type {
   position: absolute;
-  top: 0;
   left: 0;
+  font-weight: 800;
+	padding: 3px 10px 2px;
+  color: #FFF;
 }
-#skills .percent {
-  display: inline-block;
-  font-size:21px;
-  line-height: 150px;
-  z-index: 2;
-}
-#skills .percent:after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
+.progress > .progress-completed {
+  position: absolute;
+  right: 0;
+  font-weight: 800;
+  padding: 3px 10px 2px;
 }

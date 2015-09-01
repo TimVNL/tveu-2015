@@ -24,15 +24,6 @@ fallback.config({
         "vendor/backstretch.min",
       ],
     },
-    "easyPieChart": {
-      "alias": "piechart",
-      "deps": "$",
-      "exports": "easyPieChart",
-      "urls": [
-        "https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.4/jquery.easypiechart.min.js",
-        "vendor/easypiechart.min"
-      ],
-    },
     "matchHeight": {
       "deps": "$",
       "exports": "matchHeight",
@@ -65,19 +56,6 @@ fallback.require(function(backstretch) {
     duration: 4000,
     fade: 850
   });
-});
-// π charts
-fallback.require(function(piechart) {
-  $('#skills .chart').easyPieChart({
-    trackColor: '#eee',
-    barColor: '#357ebd',
-    scaleColor: false,
-    lineWidth: 10,
-    size: 150,
-    onStep: function(from, to, percent) {
-      $(this.el).find('.percent').text(Math.round(percent));
-    }
-  })
 });
 // portfolio filter
 fallback.require(function(isotope) {
