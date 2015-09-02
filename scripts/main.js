@@ -26,6 +26,12 @@ fallback.config({
         "vendor/backstretch.min",
       ],
     },
+    "contactForm": {
+      "deps": "$",
+      "urls": [
+        "contact-form",
+      ],
+    },
     "matchHeight": {
       "deps": "$",
       "exports": "matchHeight",
@@ -46,7 +52,7 @@ fallback.config({
 });
 
 // Load Twitter Bootstrap!
-fallback.require(function(bootstrap, matchHeight) {
+fallback.require(function(bootstrap, matchHeight, contactForm) {
   // matchHeight off all divs with class mh
   $('.mh').matchHeight();
 });
