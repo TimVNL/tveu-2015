@@ -258,7 +258,7 @@
       </div><!--/.page-header -->
       <div class="row">
         <div class="col-xs-12 col-md-8">
-          <div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-triangle"></i> Due to large ammounts of spam the Contact Form is offline for now</div>
+          <div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-triangle"></i> Due to large amounts of spam the Contact Form is offline for now</div>
         </div><!--/.col-xs-12 col-md-8 -->
         <div class="col-xs-12 col-md-4">
           <div class="col-xs-6 col-md-6">
