@@ -258,50 +258,7 @@
       </div><!--/.page-header -->
       <div class="row">
         <div class="col-xs-12 col-md-8">
-          <form role="form" id="feedbackForm">
-            <div class="form-group">
-              <label class="control-label" for="name">Name *</label>
-              <div class="input-group">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" />
-                <span class="input-group-addon"><i class="fa fa-square-o form-control-feedback"></i></span>
-              </div>
-              <span class="help-block" style="display: none;">Please enter your name.</span>
-            </div>
-
-            <div class="form-group">
-              <label class="control-label" for="email">Reason for Contact *</label>
-              <select name="reason" class="form-control">
-                <option value="General Inquiry">General Inquiry</option>
-                <option value="Place Order">Place Order</option>
-                <option value="Report Issue">Report Issue</option>
-              </select>
-              <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
-            </div>
-            <div class="form-group">
-              <label class="control-label" for="email">Email Address *</label>
-              <div class="input-group">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" />
-                <span class="input-group-addon"><i class="fa fa-square-o form-control-feedback"></i></span>
-              </div>
-              <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
-            </div>
-            <div class="form-group">
-              <label class="control-label" for="message">Message *</label>
-              <div class="input-group">
-                <textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
-                <span class="input-group-addon"><i class="fa fa-square-o form-control-feedback"></i></span>
-              </div>
-              <span class="help-block" style="display: none;">Please enter a message.</span>
-            </div>
-            <div class="form-group">
-              <div class="g-recaptcha" data-sitekey="6LeuNgwTAAAAANPPjq4KaHr82uEzZju1zrU_2lqS"></div>
-              <span class="help-block" style="display: none;">Please check that you are not a robot.</span>
-            </div>
-            <span class="help-block" style="display: none;">Please enter a the security code.</span>
-            <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send Feedback</button>
-          </form>
-          <script src='https://www.google.com/recaptcha/api.js'></script>
-
+          <div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-triangle"></i> Due to large ammounts of spam the Contact Form is offline for now</div>
         </div><!--/.col-xs-12 col-md-8 -->
         <div class="col-xs-12 col-md-4">
           <div class="col-xs-6 col-md-6">
