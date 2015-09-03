@@ -4,6 +4,13 @@ fallback.config({
     "js": "scripts/"
     },
   "libs": {
+    "modernizr": {
+      "exports": "Modernizr",
+      "urls": [
+        "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min",
+        "vendor/modernizr.min",
+      ],
+    },
     "jquery": {
       "alias": "$",
       "exports": "jQuery",
@@ -13,7 +20,10 @@ fallback.config({
       ],
     },
     "bootstrap": {
-      "deps": "$",
+      "deps": [
+        "modernizr",
+        "$",
+      ],
       "urls": [
         "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min",
         "vendor/bootstrap.min",
@@ -24,14 +34,6 @@ fallback.config({
       "urls": [
         "https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
         "vendor/backstretch.min",
-      ],
-    },
-    "matchHeight": {
-      "deps": "$",
-      "exports": "matchHeight",
-      "urls": [
-        "https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.6.0/jquery.matchHeight-min",
-        "vendor/matchHeight.min"
       ],
     },
     "isotope": {
@@ -46,9 +48,7 @@ fallback.config({
 });
 
 // Load Twitter Bootstrap!
-fallback.require(function(bootstrap, matchHeight) {
-  // matchHeight off all divs with class mh
-  $('.mh').matchHeight();
+fallback.require(function(bootstrap) {
 });
 // backstretch
 fallback.require(function(backstretch) {
