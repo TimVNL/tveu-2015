@@ -7,8 +7,10 @@
 @import "mixins";
 @import "animations";
 
-// Import layout
+// Import componets
 @import "layout/header";
+@import "components/timeline";
+@import "components/underline-tabs";
 
 // import sections (pages)
 @import "section/about";
