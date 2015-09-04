@@ -2,7 +2,7 @@
 fallback.config({
   "base": {
     "js": "scripts/"
-    },
+  },
   "libs": {
     "modernizr": {
       "exports": "Modernizr",

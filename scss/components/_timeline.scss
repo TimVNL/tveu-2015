@@ -1,204 +1,136 @@
 .timeline {
-  position: relative;
-  padding: 0;
   list-style: none;
-  li:before,
-  li:after {
-    content: " ";
-    display: table;
-  }
-  li:after {
-    clear: both;
-    min-height: 170px;
-  }
-}
-.timeline > li:nth-child(even) {
+  padding: 20px 0 20px;
   position: relative;
-  margin-bottom: 15px;
-  height: 200px;
-  right: -50px;
 }
-.timeline > li:nth-child(odd) {
-  position: relative;
-  margin-bottom: 15px;
-  height: 200px;
-  left: -50px;
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #999;
+  left: 50%;
+  margin-left: -1.5px;
 }
-.timeline > li .timeline-panel {
+.timeline > li {
+  margin-bottom: 20px;
   position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 50%;
   float: left;
-  width: 40%;
-  text-align: right;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
-.timeline small {
-  a {
+.timeline > li.timeline-inverted + li:not(.timeline-inverted),
+.timeline > li:not(.timeline-inverted) + li.timeline-inverted {
+margin-top: -60px;
+}
+
+.timeline > li:not(.timeline-inverted) {
+padding-right:90px;
+}
+
+.timeline > li.timeline-inverted {
+padding-left:90px;
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: $brand-primary!important;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+  height: 40px;
+}
+
+ul.timeline-title-info {
+  list-style: none;
+  padding: 0;
+  li {
+    font-size: 75%;
+    color: $headings-small-color;;
+    float: left;
+    margin: 5px 15px 0 0px;
+    a {
     color: $headings-small-color;
     text-decoration: none;
   }
-  i.fa.fa-map-marker {
+    i.fa.fa-map-marker {
     color: $brand-danger!important;
   }
+  }
 }
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
+.timeline-body > p,
+.timeline-body > ul {
   margin-bottom: 0;
-  color: #808080;
 }
-.timeline > li .timeline-years {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  color: #fff;
-  background: #337ab7;
-  position: absolute;
-  left: 50%;
-  border-radius: 100%;
-  width: 150px;
-  height: 150px;
-  margin-left: -75px;
-  margin-top: 25px;
-}
-
-/* EVEN Styles */
-.timeline > li:nth-child(even) {
-  margin-bottom: 15px;
-  .timeline-panel {
-    float: right;
-    text-align: left;
-  }
-  .line:before {
-    content: "";
-    position: absolute;
-    top: 150px;
-    bottom: 0;
-    left: 520px;
-    width: 3px;
-    height: 115px;
-    background-color: #337ab7;
-    transform: rotate(40deg);
-  }
-}
-
-/* ODD Styles */
-.timeline > li:nth-child(odd) {
-  .line:before {
-    content: "";
-    position: absolute;
-    top: 150px;
-    bottom: 0;
-    left: 645px;
-    width: 3px;
-    height: 115px;
-    background-color: #337ab7;
-    transform: rotate(-40deg);
-  }
-}
-
-/* Medium Devices, .visible-md-* */
-@media (min-width: 992px) and (max-width: 1199px) {
-  .timeline > li:nth-child(even) {
-    margin-bottom: 0;
-    min-height: 0;
-    right: 0;
-    .timeline-years {
-      left: 0;
-      margin-left: 0;
-    }
-    .timeline-panel {
-      width: 75%;
-      padding: 0 0 20px;
-      text-align: left;
-    }
-  }
-  .timeline > li:nth-child(odd) {
-    margin-bottom: 0;
-    min-height: 0;
-    left: 0;
-    .timeline-years {
-      left: 690px;
-      margin-left: 0;
-    }
-    .timeline-panel {
-      width: 70%;
-      padding: 0 0 20px;
-      text-align: right;
-    }
-  }
-  .timeline > li .line {
-    display: none;
-  }
-}
-/* Small Devices, Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
-  .timeline > li:nth-child(even) {
-    margin-bottom: 0;
-    min-height: 0;
-    right: 0;
-  }
-  .timeline > li:nth-child(odd) {
-    margin-bottom: 0;
-    min-height: 0;
-    left: 0;
-  }
-  .timeline>li:nth-child(even) .timeline-years {
-    left: 0;
-    margin-left: 0;
-  }
-  .timeline>li:nth-child(odd) .timeline-years {
-    left: 520px;
-    margin-left: 0;
-  }
-  .timeline > li:nth-child(even) .timeline-panel {
-    width: 70%;
-    padding: 0 0 20px;
-    text-align: left;
-  }
-  .timeline > li:nth-child(odd) .timeline-panel {
-    width: 70%;
-    padding: 0 0 20px;
-    text-align: right;
-  }
-  .timeline > li .line {
-    display: none;
-  }
-}
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 767px) {
-  .timeline > li:nth-child(even) {
-    margin-bottom: 0;
-    min-height: 0;
-    right: 0;
-  }
-  .timeline > li:nth-child(odd) {
-    margin-bottom: 0;
-    min-height: 0;
-    left: 0;
-  }
-  .timeline>li .timeline-image {
-    position: static;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 0;
-  }
-  .timeline>li:nth-child(even) .timeline-image {
-    left: 0;
-    margin-left: 0;
-  }
-  .timeline>li:nth-child(odd) .timeline-image {
-    float: right;
-    left: 0;
-    margin-left: 0;
-  }
-  .timeline > li:nth-child(even) .timeline-panel {
-    width: 100%;
-    padding: 0 0 20px 14px;
-  }
-  .timeline > li:nth-child(odd) .timeline-panel {
-    width: 100%;
-    padding: 0 14px 20px 0;
-  }
-  .timeline > li .line {
-    display: none;
-  }
+.timeline-body > p + p {
+  margin-top: 5px;
 }
