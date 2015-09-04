@@ -1,0 +1,12 @@
+#resume {
+	background:#eee;
+	position:relative;
+}
+
+#resume .container {
+	@include section-padding;
+}
+
+#resume .row {
+	margin: 0;
+}
