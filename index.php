@@ -28,7 +28,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#banner">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
+          <li><a href="#resume">Resume &amp; Achievements</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
       </div><!-- /.navbar-collapse -->
@@ -166,7 +166,32 @@
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
+          <div class="timeline-badge"><i class="fa fa-futbol-o"></i></div>
+          <div class="timeline-panel">
+            <h4 class="timeline-title">Wheelchair Floorball
+              <ul class="timeline-title-info">
+                <li><i class="fa fa-calendar"></i> 2004 - Present</li>
+                <li><i class="fa fa-globe"></i> <a target="_blank" href="http://arnhemseantilope.nl">Arnhemse Antilope</a></li>
+              </ul>
+            </h4>
+            <div class="timeline-body">
+              <p>Wheelchair Floorball is a lot like Floorball but with a wheelchair and a lighter plastic stick and ball.</p>
+              <p><i class="fa fa-youtube-play"></i> <a target="_blank" href="https://www.youtube.com/watch?v=_RC8w3gUiyc">Click here to get a impression!</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-car"></i></div>
+          <div class="timeline-panel">
+            <h4 class="timeline-title">Car License Obtained
+              <ul class="timeline-title-info">
+                <li><i class="fa fa-calendar"></i> 2013</li>
+              </ul>
+            </h4>
+          </div>
+        </li>
+        <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
           <div class="timeline-panel">
             <h4 class="timeline-title">ICT Coördinator Assistant
@@ -196,7 +221,17 @@
             </div>
           </div>
         </li>
-        <li class="timeline-inverted">
+        <li>
+          <div class="timeline-badge"><i class="fa fa-motorcycle"></i></div>
+          <div class="timeline-panel">
+            <h4 class="timeline-title">Scooter License Obtained
+              <ul class="timeline-title-info">
+                <li><i class="fa fa-calendar"></i> 2008</li>
+              </ul>
+            </h4>
+          </div>
+        </li>
+        <li>
           <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
           <div class="timeline-panel">
             <h4 class="timeline-title">Helpdesk Cooperator
@@ -211,6 +246,17 @@
           </div>
         </li>
         <li>
+          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel">
+            <h4 class="timeline-title">Webmaster
+              <ul class="timeline-title-info">
+                <li><i class="fa fa-calendar"></i> 2007 - 2008</li>
+                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://misteraqua.nl/">Mister Aqua, Vlodrop</a></li>
+              </ul>
+            </h4>
+          </div>
+        </li>
+        <li>
           <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
             <h4 class="timeline-title">Practical Sector Orientation (VMBO)
@@ -221,8 +267,22 @@
             </h4>
             <div class="timeline-body">
               <p>Mariëndael provides secondary special education for students with physical disabilities and chronically ill students aged 12 to 20 years. The school guides students to be independently as possible and integrated into society.</p>
-              <p>
-                <strong>Lessons Followed:</strong> Dutch, English, Mathematics, Sports, Cooking, Basic IT and miscellaneous practical lessons</p>
+              <p><strong>Lessons Followed:</strong> Dutch, English, Mathematics, Sports, Cooking, Basic IT and miscellaneous practical lessons</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
+          <div class="timeline-panel">
+            <h4 class="timeline-title">Basic Education
+              <ul class="timeline-title-info">
+                <li><i class="fa fa-calendar"></i> 2000 - 2004</li>
+                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://www.ssonml.nl/ulingshof/">Mytylschool Ulingshof, Venlo</a></li>
+              </ul>
+            </h4>
+            <div class="timeline-body">
+              <p>Mytylschool Ulingshof special school is a school where education and physiotherapy are integrated. The program is tailored to individual development opportunities.</p>
+              <p><strong>Lessons Followed:</strong> Dutch, Mathematics, Religion, Geography</p>
             </div>
           </div>
         </li>
