@@ -28,7 +28,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#banner">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume &amp; Achievements</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
       </div><!-- /.navbar-collapse -->
@@ -150,153 +150,14 @@
       <div class="page-header">
         <h2>Resume <small>All my carreer steps and achievements</small></h2>
       </div><!--/.page-header -->
-      <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Systems- &amp; Network Engineer
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> Oct, 2010 - Present</li>
-                <li><i class="fa fa-map-marker"> </i> <a target="_blank" href="http://noxqs.nl">NoXqs B.V., Elst (gld)</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>NoXqs makes apps, web applications and websites. The expertise lies in the easy accessibility of technology and information. The company now has about 25 employees. The mission of the company is "going for the possibilities." In other words,
-                go for the capabilities of the software users, including many people with intellectual disabilities. NoXqs also goes for the potential of employees; including many professionals with a form of autism.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-futbol-o"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Wheelchair Floorball
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2004 - Present</li>
-                <li><i class="fa fa-globe"></i> <a target="_blank" href="http://arnhemseantilope.nl">Arnhemse Antilope</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>Wheelchair Floorball is a lot like Floorball but with a wheelchair and a lighter plastic stick and ball.</p>
-              <p><i class="fa fa-youtube-play"></i> <a target="_blank" href="https://www.youtube.com/watch?v=_RC8w3gUiyc">Click here to get a impression!</a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-car"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Car License Obtained
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2013</li>
-              </ul>
-            </h4>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">ICT Coördinator Assistant
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2008 - Sept, 2010</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://prisma-arnhem.nl">Het Prisma, Arnhem</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>Het Prisma starts from the power that is present in every human being. We are a school that offers the most appropriate teaching and ancillary care for special students. The aim: life so independent and comfortable as possible.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Employee Computer Advies Team
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2008 - Sept, 2010</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://www.deonderwijsspecialisten.nl">De Onderwijsspecialisten, Arnhem</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>ICT gives children and young people with disabilities opportunity's to belong, to express themselves &amp; stay informed. By using the right IT means they are more independent in life and to increase their employment prospects. De Onderwijsspecialisten
-                provide specific ICT support to pupils with physical, mental or multiple disabilities and chronically ill children. My contribution was to follow the latest developments and trends. I was also responsible to provide what adjustments were
-                lent etc...</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-motorcycle"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Scooter License Obtained
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2008</li>
-              </ul>
-            </h4>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Helpdesk Cooperator
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2007 - 2008</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://www.deonderwijsspecialisten.nl">De Onderwijsspecialisten, Arnhem</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>This is the central Helpdesk from De Onderwijsspecialisten for computer problems. My job consisted of the following components: Answering phone calls , making incident reports, small problems via phone and mail problems.</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-briefcase"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Webmaster
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2007 - 2008</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://misteraqua.nl/">Mister Aqua, Vlodrop</a></li>
-              </ul>
-            </h4>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Practical Sector Orientation (VMBO)
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2004 - 2009</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://www.mariendael.nl">Mariëndael, Arnhem</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>Mariëndael provides secondary special education for students with physical disabilities and chronically ill students aged 12 to 20 years. The school guides students to be independently as possible and integrated into society.</p>
-              <p><strong>Lessons Followed:</strong> Dutch, English, Mathematics, Sports, Cooking, Basic IT and miscellaneous practical lessons</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
-          <div class="timeline-panel">
-            <h4 class="timeline-title">Basic Education
-              <ul class="timeline-title-info">
-                <li><i class="fa fa-calendar"></i> 2000 - 2004</li>
-                <li><i class="fa fa-map-marker"></i> <a target="_blank" href="http://www.ssonml.nl/ulingshof/">Mytylschool Ulingshof, Venlo</a></li>
-              </ul>
-            </h4>
-            <div class="timeline-body">
-              <p>Mytylschool Ulingshof special school is a school where education and physiotherapy are integrated. The program is tailored to individual development opportunities.</p>
-              <p><strong>Lessons Followed:</strong> Dutch, Mathematics, Religion, Geography</p>
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <!--/.container -->
+      <?php include("resume.php"); ?>
+    </div><!--/.container -->
   </section>
 
   <section id="portfolio">
     <div class="container">
       <div class="page-header">
-        <h2>Portfolio
-          <small>Masterpieces I created</small>
-        </h2>
+        <h2>Portfolio <small>Masterpieces I created</small></h2>
       </div><!--/.page-header -->
       <div class="portfolio-filter">
         <div class="tabbable-line">
@@ -305,67 +166,49 @@
             <li><a href="#" data-filter=".website">Websites</a></li>
             <li><a href="#" data-filter=".logo">Logo's</a></li>
             <li><a href="#" data-filter=".other">Other</a></li>
-          </ul>
-          <!--/.nav-tabs -->
-        </div>
-        <!--/.tabbable-line -->
-      </div>
-      <!--/.portfolio-filter -->
+          </ul><!--/.nav-tabs -->
+        </div><!--/.tabbable-line -->
+      </div><!--/.portfolio-filter -->
 
       <div class="row isotope-container">
         <?php include ("portfolio/websites.php"); ?>
-          <?php include ("portfolio/logos.php"); ?>
-            <?php include ("portfolio/other/index.php") ?>
-      </div>
-      <!--.row-->
-    </div>
-    <!--/.container -->
+        <?php include ("portfolio/logos.php"); ?>
+        <?php include ("portfolio/other/index.php") ?>
+      </div><!--.row-->
+    </div><!--/.container -->
   </section>
 
   <section id="contact">
     <div class="container">
       <div class="page-header">
-        <h2>Contact
-          <small>Connect with me!</small>
-        </h2>
-      </div>
-      <!--/.page-header -->
+        <h2>Contact <small>Connect with me!</small></h2>
+      </div><!--/.page-header -->
       <div class="row">
         <div class="col-xs-12 col-md-8">
           <div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-triangle"></i> Due to large amounts of spam the Contact Form is offline for now</div>
-        </div>
-        <!--/.col-xs-12 col-md-8 -->
+        </div><!--/.col-xs-12 col-md-8 -->
         <div class="col-xs-12 col-md-4">
           <div class="col-xs-6 col-md-6">
             <p><a type="button" class="btn btn-lg btn-block btn-default"><i class="fa fa-facebook" href="https://www.facebook.com/TimVNL" target="_blank"></i> Facebook</a></p>
             <p><a type="button" class="btn btn-lg btn-block btn-default"><i class="fa fa-lastfm" href="http://www.last.fm/user/TimVNL" target="_blank"></i> Last.fm</a></p>
             <p><a type="button" class="btn btn-lg btn-block btn-default" href="http://trakt.tv/users/timvnl" target="_blank"><i class="fa fa-tv"></i> Trakt</a></p>
-          </div>
-          <!--/.col-xs-6 col-md-6 -->
+          </div><!--/.col-xs-6 col-md-6 -->
           <div class="col-xs-6 col-md-6">
             <p><a type="button" class="btn btn-lg btn-block btn-default" href="https://github.com/TimVNL" target="_blank"><i class="fa fa-github-alt"></i> Github</a></p>
             <p><a type="button" class="btn btn-lg btn-block btn-default" href="https://www.linkedin.com/in/timvnl" target="_blank"><i class="fa fa-linkedin"></i> LinkedIN</a></p>
             <p><a type="button" class="btn btn-lg btn-block btn-default" href="https://twitter.com/TimV_"><i class="fa fa-twitter"></i> Twitter</a></p>
-          </div>
-          <!--/.col-xs-6 col-md-6 -->
-        </div>
-        <!--/.col-xs-12 col-md-4 -->
-      </div>
-      <!--/.row -->
-    </div>
-    <!--/.container -->
+          </div><!--/.col-xs-6 col-md-6 -->
+        </div><!--/.col-xs-12 col-md-4 -->
+      </div><!--/.row -->
+    </div><!--/.container -->
   </section>
 
   <!-- Portfolio Modal -->
   <div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-      </div>
-      <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-  </div>
-  <!-- /.modal -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 </body>
-
 </html>
