@@ -141,7 +141,7 @@ ul.timeline-title-info {
     }
   }
 }
-@media (max-width: 767px) {
+@media (max-width: $screen-md) {
   .timeline:before {
     left: 40px;
   }
@@ -176,8 +176,8 @@ ul.timeline-title-info {
   .timeline > li:nth-child(even) {
     float: left;
     clear: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
   .timeline > li:nth-child(even) > .timeline-badge {
     left: 20px;
