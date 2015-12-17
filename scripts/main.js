@@ -25,7 +25,7 @@ fallback.config({
         "$",
       ],
       "urls": [
-        "//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min",
+        "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min",
         "vendor/bootstrap.min",
       ],
     },
