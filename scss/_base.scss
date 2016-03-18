@@ -4,8 +4,8 @@ body {
 }
 
 // Typography
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:100,300,400');
-@import url('http://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 // Font Stacks
 $font-sans     : "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -18,7 +18,7 @@ $font-normal  : 400;
 $font-bold    : 700;
 
 body {
-  font-family: $font-sans;
+	font-family: $font-sans;
   font-weight: $font-normal;
 }
 

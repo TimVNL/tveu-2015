@@ -85,12 +85,17 @@
         <div class="col-xs-12 col-md-6">
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
-            <span class="progress-type">HTML / HTML5</span>
+            <span class="progress-type">FRONTEND DEVELOPMENT (CSS, HTML5, SASS)</span>
             <span class="progress-completed">90%</span>
           </div><!--/.progress -->
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
             <span class="progress-type">WORDPRESS</span>
+            <span class="progress-completed">80%</span>
+          </div><!--/.progress -->
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;"></div>
+            <span class="progress-type">COMPUTER BUILDING</span>
             <span class="progress-completed">80%</span>
           </div><!--/.progress -->
           <div class="progress">
@@ -103,11 +108,7 @@
             <span class="progress-type">ABBYY FINEREADER OCR &amp; KURTWEIL 3000</span>
             <span class="progress-completed">75%</span>
           </div><!--/.progress -->
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 70%;"></div>
-            <span class="progress-type">MOBILE DEVELOPMENT (ANDROID &amp; IOS)</span>
-            <span class="progress-completed">70%</span>
-          </div><!--/.progress -->
+
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 70%;"></div>
             <span class="progress-type">PHOTOSHOP</span>
@@ -133,6 +134,11 @@
           <div class="progress">
             <div class="progress-bar" role="progressbar" style="width: 60%;"></div>
             <span class="progress-type">JS &amp; JQUERY</span>
+            <span class="progress-completed">60%</span>
+          </div><!--/.progress -->
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 60%;"></div>
+            <span class="progress-type">MOBILE DEVELOPMENT (ANDROID &amp; IOS)</span>
             <span class="progress-completed">60%</span>
           </div><!--/.progress -->
           <div class="progress">
@@ -189,8 +195,8 @@
         </div><!--/.col-xs-12 col-md-8 -->
         <div class="col-xs-12 col-md-4">
           <div class="col-xs-6 col-md-6">
-            <p><a type="button" class="btn btn-lg btn-block btn-default"><i class="fa fa-facebook" href="https://www.facebook.com/TimVNL" target="_blank"></i> Facebook</a></p>
-            <p><a type="button" class="btn btn-lg btn-block btn-default"><i class="fa fa-lastfm" href="http://www.last.fm/user/TimVNL" target="_blank"></i> Last.fm</a></p>
+            <p><a type="button" class="btn btn-lg btn-block btn-default" href="https://www.facebook.com/TimVNL" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></p>
+            <p><a type="button" class="btn btn-lg btn-block btn-default" href="http://www.last.fm/user/TimVNL" target="_blank"><i class="fa fa-lastfm"></i> Last.fm</a></p>
             <p><a type="button" class="btn btn-lg btn-block btn-default" href="http://trakt.tv/users/timvnl" target="_blank"><i class="fa fa-tv"></i> Trakt</a></p>
           </div><!--/.col-xs-6 col-md-6 -->
           <div class="col-xs-6 col-md-6">

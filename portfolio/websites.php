@@ -5,7 +5,7 @@
 </div><!--.col-->
 
 <div class="col-xs-6 col-md-3 isotope-item website">
-  <a href="http://autismegelderland.nl" class="thumbnail">
+  <a href="http://www.autismegelderland.nl" class="thumbnail">
     <img src="img/portfolio/noxqs-sag.png" alt="">
   </a>
 </div><!--.col-->
